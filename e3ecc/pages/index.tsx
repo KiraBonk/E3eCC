@@ -1,3 +1,7 @@
-const HomePage = () => <h1>Testing</h1>;
+const HomePage = () => (
+  <div>
+    <h1 style={{ color: "gray" }}>Testing</h1>
+  </div>
+);
 
 export default HomePage;
